@@ -17,9 +17,11 @@ clara e eficiente. Com uma interface simples e funcional, a plataforma busca tor
 planejamento das tarefas mais prático, ajudando na rotina e evitando esquecimentos.
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+Atualmente, muitas pessoas possuem uma rotina cheia de tarefas, compromissos e 
+responsabilidades, tanto pessoais quanto profissionais ou acadêmicas. No entanto, nem 
+sempre essas atividades são organizadas de forma eficiente, o que pode resultar em 
+esquecimentos, atrasos e dificuldade em administrar o tempo ao longo do dia.
 
 
 ## Objetivos
