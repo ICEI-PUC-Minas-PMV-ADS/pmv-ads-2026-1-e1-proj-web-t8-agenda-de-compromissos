@@ -15,7 +15,7 @@ As páginas seguem um padrão visual focado em produtividade, com os seguintes e
 - Font-family: Predominantemente fontes sem serifa (Sans-serif) para facilitar a leitura rápida e uma fonte manuscrita/cursiva estilizada para o título principal "Lista de Tarefas".
 
 - Componentes Fixos: Barra de pesquisa superior, calendário mensal interativo à direita e seção de resumo "Hoje" e "Amanhã".
-
+<hr>
 Tela de Visualização de Tarefas (Dashboard)
 Esta tela centraliza a organização pessoal do usuário através de quatro módulos principais:
 
