@@ -1,10 +1,10 @@
-# Título do Projeto
+# Agenda de Compromissos
 
-`CURSO`
+`Analise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento Web - Front End`
 
-`SEMESTRE`
+`1S - Primeiro Semestres`
 
 Este projeto propõe a criação de um site para o gerenciamento de compromissos diários. O objetivo principal é auxiliar usuários na organização de tarefas e prazos, combatendo a desorganização e o esquecimento em rotinas intensas.
 - Público-alvo: Estudantes, profissionais, pais e idosos que buscam melhor gestão do tempo.Funcionalidades 
