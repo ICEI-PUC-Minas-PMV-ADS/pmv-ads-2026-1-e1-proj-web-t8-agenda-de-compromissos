@@ -7,15 +7,26 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil X Estudantes, Profissionais em Geral, Pais, Idosos </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px"> 1. Estudantes que precisem organizar uma rotina de estudos, 
+provas, entregas de trabalho, tarefas diárias; etc. 
+2. Profissionais que precisem ter uma rotina bem estabelecida, com 
+a visualização de prazos de entrega, reuniões, tarefas; etc. 
+3. Pais que necessitam ter uma melhor gestão de tempo com rotina 
+para desfrutarem melhor dos intervalos de tempo entre uma 
+tarefa e outra. Como afazeres domésticos, cuidados com as 
+crianças, e atividades do âmbito acadêmico dos filhos. 
+4. Pessoas de idade avançada que podem ter uma rotina corrida ou 
+apresentar dificuldades de memória. Por isso, anotar 
+compromissos e tarefas é essencial para garantir que nada 
+importante seja esquecido. </td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Teste</td>
 </tr>
 </tbody>
 </table>
@@ -54,10 +65,18 @@
 
 [Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
 
-|ID      | Descrição               |Prioridade |
-|--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+|ID        | Descrição                                                                                                                             |Prioridade |
+|----------|----------------------------------------------------------------------------------------------------------------------------------------------|----|
+|  RNF-01  |  A aplicação deve estar disponível em ambiente web acessível pela Internet.                                                               | Alta  | 
+|  RNF-02  |  A aplicação deverá ser responsiva, permitindo o uso adequado em computadores, tablets e smartphones.                                     | Alta  |
+|  RNF-03  |  O sistema deve possuir tempo de carregamento das páginas inferior a 3 segundos em condições normais de uso.                              | Alta  | 
+|  RNF-04  |  O sistema deve ser compatível com os principais navegadores do mercado: Google Chrome, Mozilla Firefox e Microsoft Edge.                 | Alta  | 
+|  RNF-05  |  A aplicação deve possuir interface simples e intuitiva para facilitar o agendamento e visualização de compromissos.                      | Média |
+|  RNF-06  |  O sistema deve garantir a segurança dos dados dos usuários através de autenticação e controle de acesso.                                 | Alta  | 
+|  RNF-07  |  O sistema deve permitir acesso apenas a usuários autenticados, garantindo a privacidade das informações dos compromissos cadastrados.    | Média | 
+|  RNF-08  |  A aplicação deve permitir disponibilidade mínima de 99% do tempo de funcionamento.                                                       | Média | 
+|  RNF-09  |  O sistema deve permitir fácil manutenção e atualização do código pelos desenvolvedores.                                                  | Alta  |
+|  RNF-10  |  A aplicação deve garantir boa legibilidade da interface, com contraste adequado entre textos e elementos visuais.                        | Baixa | 
 
 **Prioridade: Alta / Média / Baixa. 
 
