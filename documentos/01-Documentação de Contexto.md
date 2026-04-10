@@ -33,11 +33,15 @@ contribuindo para uma melhor administração do tempo.
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+A organização dos compromissos diários é um fator importante para manter a produtividade 
+e o controle das atividades ao longo do dia. No entanto, muitas pessoas ainda enfrentam 
+dificuldades para administrar seu tempo e lembrar de todas as tarefas que precisam ser 
+realizadas, o que pode causar desorganização e perda de prazos importantes.
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Diante dessa realidade, surge a necessidade de desenvolver ferramentas digitais que 
+auxiliem no planejamento e no controle das atividades diárias. Um site voltado para o 
+gerenciamento de compromissos pode oferecer uma maneira simples e acessível de 
+registrar tarefas, acompanhar horários e visualizar as atividades de forma organizada. 
 
 ## Público-Alvo
 
