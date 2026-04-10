@@ -45,12 +45,8 @@ registrar tarefas, acompanhar horários e visualizar as atividades de forma orga
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
-
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
-
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+O público-alvo deste site é composto principalmente por estudantes, profissionais e pessoas 
+que possuem uma rotina com diversos compromissos diários e que precisam de uma forma 
+prática de organizar suas atividades. Esses usuários frequentemente precisam lembrar de 
+tarefas, prazos, reuniões, estudos e outras responsabilidades ao longo do dia.
 
