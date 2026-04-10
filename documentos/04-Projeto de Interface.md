@@ -24,7 +24,7 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 
 
 <figure> 
-<img width="1198" height="673" alt="image" src="https://github.com/user-attachments/assets/cef487d9-0f64-4a43-b9fe-318cebdbbb21" />
+<img width="1387" height="783" alt="image" src="https://github.com/user-attachments/assets/9e5c883c-a972-4a5d-be51-d97afd09e3dc" />
     <figcaption>Figura 2 - Estrutura padrão do site
 </figure> 
 <hr>
@@ -42,7 +42,8 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 <h3><b>Tela - Cadastro</b></h3>
 <p>A tela de Cadastro realiza um método de inscrição em nosso site de agendas.</p>
   
-<img width="999" height="562" alt="image" src="https://github.com/user-attachments/assets/ba8d7bff-6fd7-4469-9fb4-e343e950a0eb" />
+<img width="1198" height="673" alt="image" src="https://github.com/user-attachments/assets/7a54c746-36db-44fe-b1f2-5a9a417a8c48" />
+
 
 <figure> 
   <figcaption>Figura 3 - Tela Cadastro page
