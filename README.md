@@ -10,10 +10,10 @@
 
 ## Integrantes
 
-* Nome completo do aluno 1
+* Pablo Luiz Amaro de Miranda
 * Nome completo do aluno 2
 * Nome completo do aluno 3
-* Nome completo do aluno 4
+* José Júlio de Paiva Neto
 * Nome completo do aluno 5
 * Nome completo do aluno 6
 
