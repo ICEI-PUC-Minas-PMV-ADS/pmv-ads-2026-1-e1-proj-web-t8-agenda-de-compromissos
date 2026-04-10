@@ -1,7 +1,4 @@
 # Referências Bibliográficas
 
-[Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.]
-
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+MARQUES, Bruna Guimarães; PIRES, Emmy Uehara. Gerenciamento de tempo em adultos: método, técnicas e aplicações. Psico, v. 52, n. 1, 2021.  
+https://revistaseletronicas.pucrs.br/revistapsico/article/view/35857/26864 
