@@ -1,6 +1,20 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+Em um mundo cada vez mais conectado e dinâmico, a organização das atividades diárias 
+tornou-se essencial para manter a produtividade e o equilíbrio entre responsabilidades 
+pessoais e profissionais. Muitas pessoas enfrentam dificuldades para lembrar 
+compromissos, prazos e tarefas importantes ao longo do dia, o que pode gerar atrasos, 
+esquecimentos e redução da eficiência. 
+Diante desse cenário, o desenvolvimento de um site voltado para o gerenciamento de 
+compromissos diários surge como uma solução prática e acessível. A proposta da 
+plataforma é permitir que os usuários registrem, visualizem e organizem suas atividades de 
+forma simples e intuitiva, facilitando o planejamento do dia a dia. Por meio de recursos 
+como cadastro de tarefas, definição de horários e lembretes, o sistema contribui para uma 
+melhor gestão do tempo. 
+Assim, o site tem como objetivo oferecer uma ferramenta digital que auxilie na organização 
+dos compromissos diários, permitindo ao usuário acompanhar suas atividades de maneira 
+clara e eficiente. Com uma interface simples e funcional, a plataforma busca tornar o 
+planejamento das tarefas mais prático, ajudando na rotina e evitando esquecimentos.
 
 ## Problema
 [Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
