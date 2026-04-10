@@ -7,31 +7,28 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil  Estudantes, Profissionais em Geral, Pais, Idosos </th>
+<th colspan="2">Perfil Agendador</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrisao</b></td>
 <td width="600px">
-1. Estudantes que precisem organizar uma rotina de estudos, 
-provas, entregas de trabalho, tarefas diárias; etc.
-  
-2. Profissionais que precisem ter uma rotina bem estabelecida, com 
-a visualização de prazos de entrega, reuniões, tarefas; etc.
- 
-4. Pais que necessitam ter uma melhor gestão de tempo com rotina 
-para desfrutarem melhor dos intervalos de tempo entre uma 
-tarefa e outra. Como afazeres domésticos, cuidados com as 
-crianças, e atividades do âmbito acadêmico dos filhos.
- 
-6. Pessoas de idade avançada que podem ter uma rotina corrida ou 
-apresentar dificuldades de memória. Por isso, anotar 
-compromissos e tarefas é essencial para garantir que nada 
-importante seja esquecido. </td>
+Pessoa que precisa organizar melhor a sua rotina e deixar de perder os horários. </td>
 
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>Teste</td>
+<td>
+1. Identificar o tipo de lançamento;
+
+2. Alterar, remarcar, confirmar ou excluir eventos, caso necessário;
+
+3. Adicionar Alertas, Notificações e Formas de lembrete, com prazos 
+a serem definidos;
+
+4. Ordenar e pesquisar por prazos, adicionar marcação por data, 
+horário, prioridade, e tipo de evento;
+
+5. Adicionar subtarefas.</td>
 </tr>
 </tbody>
 </table>
@@ -61,8 +58,18 @@ importante seja esquecido. </td>
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
+| RF-01 |O sistema deve permitir que o usuário possa cadastrar uma nova conta ou entrar/sair dela (login/logout)| Alta | 
+| RF-02 |O sistema deve permitir que o usuário crie uma tarefa com título, descrição, data/hora| Alta |
+| RF-03 |O sistema deve permitir que o usuário gerencie suas tarefas| Alta |
+| RF-04 |O sistema deve permitir a visualização da lista de tarefas cadastradas| Alta |
+| RF-05 |O sistema deve permitir que o usuário pesquise o nome da tarefa pelo título ou data| Alta |
+| RF-06 |O sistema deve permitir que o usuário tenha a possibilidade de definir lembretes informando a data de conclusão da tarefa| Alta |
+| RF-07 |O sistema deve permitir que o usuário filtre as tarefas por data/prioridade| Alta |
+| RF-08 |O sistema deve permitir que o usuário marque as tarefas como concluídas ou em execução| Alta |
+| RF-09 |O sistema deve permitir que o usuário organize as tarefas por ordem de prioridade| Média |
+| RF-10 |O sistema deve permitir que o usuário veja o intervalo de tempo para a conclusão da tarefa| Média |
+| RF-11 |O sistema deve permitir que o usuário tenha a possibilidade de deixar a tarefa de forma recorrente| Baixa |
+| RF-12 |O sistema deve enviar as tarefas excluídas para uma lixeira deixando a possibilidade de restauração| Baixa |
 
 **Prioridade: Alta / Média / Baixa. 
 
