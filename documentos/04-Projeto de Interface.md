@@ -57,5 +57,15 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 <figure> 
   <figcaption>Figura 3 - Tela Cadastro page
 </figure> 
+<hr>
+<h3><b>Tela - Alterar Senha</b></h3>
+<p>A tela de Alterar Senha realiza um metodo de redefiniçao de senha.</p>
+  
+<img width="1001" height="564" alt="image" src="https://github.com/user-attachments/assets/57bca382-f13e-42f9-80c8-91e742a3603b" />
+
+
+<figure> 
+  <figcaption>Figura 3 - Alterar Senha
+</figure>
 
 
