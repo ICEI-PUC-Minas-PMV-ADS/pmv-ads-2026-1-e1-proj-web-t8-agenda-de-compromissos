@@ -56,7 +56,8 @@
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
+| RNF-01 |  A aplicação deve estar disponível em ambiente web acessível 
+pela Internet.                    | ...   | 
 | ...    |  ...                    | ...   | 
 
 **Prioridade: Alta / Média / Baixa. 
