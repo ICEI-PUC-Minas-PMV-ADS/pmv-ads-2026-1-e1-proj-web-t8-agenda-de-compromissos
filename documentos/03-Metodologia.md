@@ -1,22 +1,23 @@
 
 # Metodologia
 
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
+Esta seção descreve a organização da equipe para a execução das tarefas de desenvolvimento do Sistema de Agenda de Compromissos e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
 
 
 ## Gerenciamento de Projeto
-A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
-
-“visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
+A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM. Esta escolha justifica-se pela necessidade de entregas incrementais, visto que um sistema de agenda demanda funcionalidades críticas (como CRUD de eventos e notificações) que precisam de validação constante. Segundo Amaral, Fleury e Isoni (2019, p. 68), o Scrum proporciona uma visão clara dos resultados, disciplina na execução e um ambiente colaborativo focado na resolução de problemas técnicos.
 
 ### Divisão de Papéis
 
-A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
-- Scrum Master: [Nome de um membro da equipe, principal responsável pela gestão do projeto.]
-- Product Owner: [Nome de um membro da equipe, representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.]
-- Equipe de Desenvolvimento: [Nomes de todos os membros da equipe, pois todos os membros deverão implementar uma tela/funcionalidade.]
-- Equipe de Design: [Nomes dos membros da equipe que trabalharão com design.]
+A equipe está estruturada da seguinte forma para garantir o fluxo de desenvolvimento da agenda:
+
+- Scrum Master: Pablo Luiz Amaro de Miranda, responsável por garantir que o fluxo de trabalho não sofra impedimentos e que as cerimônias do Scrum sejam seguidas.
+
+- Product Owner: José Júlio de Paiva Neto, responsável por priorizar o Backlog, definindo quais funcionalidades da agenda (ex: integração com mapas, lembretes via e-mail) são essenciais para cada entrega.
+
+- Equipe de Desenvolvimento: William Rocha Dos Santos, responsáveis pela implementação técnica das funcionalidades de front-end e back-end do sistema.
+
+- Equipe de Design: Lucas Felipe dos Santos Lamarca, focados na experiência do usuário (UX) e interface (UI), garantindo que a visualização do calendário seja intuitiva.
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
@@ -25,14 +26,19 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
-A equipe utiliza o GitHub Projects para o acompanhamento do desenvolvimento do projeto. [Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe deve fazer uso do GitHub Project para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir depois das informações uma imagem do Kanban do projeto. Será importante apresentar o status do Kanban em todas as reuniões com o Professor regente.]
+Para o acompanhamento das tarefas, a equipe utiliza o GitHub Projects, configurado com um quadro Kanban que reflete o ciclo de vida de cada funcionalidade do sistema de agenda:
 
-- Backlog: Esta coluna representa o Product Backlog e recebe as Tarefas do Projeto a serem trabalhadas. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
-- To Do: Esta coluna representa o Sprint Backlog, ou seja, a lista das Tarefas da Etapa. As tarefas do To Do devem ser definidas e distribuídas para os integrantes da equipe no início de cada Etapa.
-- In Progress: Esta coluna representa as Tarefas da Etapa em desenvolvimento, ou seja, quando uma tarefa do To Do tiver sido iniciada por um integrante da equipe, ele deve movê-la para esta coluna.
-- Ready to Test: Esta coluna representa as Tarefas da Etapa prontas para Testes. Assim que uma tarefa é finalizada, ela deve ser movida para esta coluna pelo integrante da equipe que a finalizou.
-- Testing: Esta coluna representa as Tarefas da Etapa em Revisão e/ou Teste. O integrante definido pela equipe revisa/testa a Tarefa do colega e, logo em seguida, apresenta na descrição da tarefa os resultados obtidos. O integrante que desenvolveu a Tarefa que apresenta revisões a serem realizadas deve aprimorar a sua Tarefa a partir das observações recebidas antes de movê-la para Done.
-- Done: Esta coluna representa as Tarefas concluídas, considerando que as Tarefas passaram pelos testes, foram aprimoradas pelos feedbacks obtidos nas revisões/testes e estão prontas para ser entregues.
+- Backlog: Recebe todas as necessidades do sistema (ex: "Criar autenticação", "Exportar agenda para PDF").
+
+- To Do: Lista de tarefas selecionadas para a Sprint atual da agenda.
+
+- In Progress: Funcionalidades que estão sendo codificadas no momento.
+
+- Ready to Test: Requisitos da agenda já codificados e aguardando validação em ambiente de teste.
+
+- Testing: Etapa onde se verifica se o agendamento de compromissos está funcionando sem conflitos de horário.
+
+- Done: Tarefas concluídas e integradas à versão principal do sistema.
 
 [Adicione uma imagem do Kanban do projeto]
 
@@ -43,7 +49,7 @@ A equipe utiliza o GitHub Projects para o acompanhamento do desenvolvimento do p
 
 
 ### Etiquetas
-<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
+<p>As tarefas relacionadas à agenda são categorizadas para facilitar a identificação visual no repositório:</p>
 
 <ul>
   <li>Bug (Erro no código)</li>
@@ -61,9 +67,7 @@ A equipe utiliza o GitHub Projects para o acompanhamento do desenvolvimento do p
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
-
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+Os artefatos do Sistema de Agenda de Compromissos são desenvolvidos utilizando as plataformas listadas na tabela abaixo:
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
