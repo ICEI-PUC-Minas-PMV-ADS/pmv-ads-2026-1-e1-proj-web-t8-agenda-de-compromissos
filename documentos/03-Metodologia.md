@@ -64,7 +64,7 @@ Os artefatos do Sistema de Agenda de Compromissos são desenvolvidos utilizando 
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://....                            |
+| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/tree/main                           |
 | Documentos do projeto|GitHub| https://onedrive.live.com/:w:/g/personal/657ec8aff579eca8/IQD8Xws3EIWjSr0T0UouWJe7ARKQfi4KHlttApGeI1i28TU?rtime=11gD0qCF3kg&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3cvYy82NTdlYzhhZmY1NzllY2E4L0lRRDhYd3MzRUlXalNyMFQwVW91V0plN0FSS1FmaTRLSGx0dEFwR2VJMWkyOFRVP2U9QXZoS2tD|
 | Projeto de Interface                | Figma                              | https://www.figma.com/proto/TF5qUOIfvbY5v8iXvdd7If/AGENDA-DE-COMPROMISSOS-DI%C3%81RIOS?node-id=38-889&p=f&t=mAiX91sKa6kre7nC-0&scaling=contain&content-scaling=fixed&page-id=5%3A5818&starting-point-node-id=38%3A889                         |
 | Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
