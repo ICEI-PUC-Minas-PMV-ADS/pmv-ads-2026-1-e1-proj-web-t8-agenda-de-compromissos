@@ -26,9 +26,9 @@ let usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
 //verificando se o email ja existe
 const emailExiste = usuarios.some(user => user.email === email);
 
-if(emailExiste){
-    document.getElementById('mensageMM').innerHTML = 'email ja cadastrado';
-    document.getElementById('mensageMM').style.color = 'red';
+if(emailExiste) {
+    document.getElementById('mensagem').innerHTML = 'email ja cadastrado';
+    document.getElementById('mensagem').style.color = 'red';
 return;
 }
 
@@ -36,11 +36,11 @@ return;
 usuarios.push(usuario);
 
 //salvando no localStorage
-localStorage.setItem(usuarios, JSON.stringify(usuarios));
+localStorage.setItem('usuarios', JSON.stringify(usuarios));
 
 //mensagem de sucesso
-document.getElementById('mensagem').innerHTML = 'cadastro realizado com sucesso';
-document.getElementById('mensagem').style.color = 'green';
+document.getElementById('mensagems').innerHTML = 'cadastro realizado com sucesso';
+document.getElementById('mensagems').style.color = 'green';
 
 //limpar formulario
 form.reset(); 
