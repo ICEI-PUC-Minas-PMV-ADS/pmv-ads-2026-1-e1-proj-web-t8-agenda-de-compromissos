@@ -3,18 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Tarefas</title>
+    <title>Minhas Tarefas - Lista</title>
+    <script src="../js/manage_tasks.js"></script>
+    <link rel="stylesheet" href="../style/manage_tasks.css">
 </head>
 <body>
-  
-    <!-- Conteiner de Cadastro de Tasks -->
-    <div class="container">
-        <h2>Lista de Tarefas</h2>
-        <div class="input-group">
-            <input type="text" id="taskInput" placeholder="O que precisa ser feito?">
-            <button onclick="addTask()">Adicionar</button>
+
+    <header class="top-bar">
+        <div class="icon-group left"><div class="icon">🗑️</div></div>
+        <div class="icon-group center">
+            <div class="icon">📅</div><div class="icon">🗓️</div><div class="icon">🏠</div>
+            <div class="icon">✏️</div><div class="icon">📒</div>
+            <div class="icon active">📝</div>
         </div>
-        <ul id="taskList"></ul>
-    </div>
+        <div class="icon-group right"><div class="icon profile">👤</div></div>
+    </header>
+
+    <main class="main-container">
+        <div class="card list-card">
+            <div class="search-container">
+                <div class="search-box">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" id="searchInput" placeholder="Pesquisar tarefas..." onkeyup="filtrarTarefas()">
+                </div>
+            </div>
+
+            <div id="dynamicTaskList" class="task-items-container">
+                </div>
+        </div>
+    </main>
 </body>
 </html>
