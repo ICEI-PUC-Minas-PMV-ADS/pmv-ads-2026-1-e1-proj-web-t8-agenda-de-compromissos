@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="../js/index.js" defer></script>
+    <link rel="stylesheet" href="../style/index.css">
+</head>
+<body>
+    <div class="background-glow"></div>
+    <div class="container"> 
+        <form id="formLogin"> 
+            <h2>Realize seu Login</h2>
+            <p class="subtitle">Acesse Sua Agenda</p>
+
+            <!--Caixa de Texto Email-->
+            <div class="input-box">
+                <label for="loginEmail">E-MAIL</label>
+                <input type="email" name="loginEmail" id="loginEmail" placeholder="Digite seu Email...">
+            </div>
+
+
+            <!--Caixa de Texto Senha-->
+            <div class="input-box">
+                <label for="loginSenha">SENHA</label>
+                <input type="password" name="loginSenha" id="loginSenha" placeholder="Digite sua Senha...">
+            </div>
+
+            <!---Botão de Realizar Login-->
+            <input type="submit" value="LOGAR" class="btn">
+<br><br>
+<a href="register.html">Realize Seu Cadastro</a>
+        </form>
+        <span id="mensagemLogin"></span>
+    </div>
+</body>
+</html>
