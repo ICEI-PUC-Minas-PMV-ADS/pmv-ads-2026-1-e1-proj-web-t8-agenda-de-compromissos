@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+    <script src="../js/shared.js"></script>
+    <script src="../js/router.js"></script>
+    <script src="../js/dashboard.js"></script>
+    <script src="../js/profile.js"></script>
+    <link rel="stylesheet" href="../style/profile.css">
+
+</head>
+<body>
+    <div class="background-glow"></div>
+    <div id="main-dashboard" class="screen conteiner">
+        <header>
+            <h1>📅 Minha Agenda</h1>
+            <div class="user-info">Olá, <span id="current-user-name"></span>! <button id="logout-btn">Sair</button></div>
+        </header>
+        <div class="dashboard-layout">
+            <aside class="sidebar">
+                <a href="dashboard.html" class="nav-btn">🗓️ Calendários</a>
+                <a href="task.html" class="nav-btn">📋 Todas as Tarefas</a>
+                <a href="task-create.html" class="nav-btn">➕ Nova Tarefa</a>
+                <a href="profile.html" class="nav-btn active">👤 Editar Perfil</a>
+                <a href="trash.html" class="nav-btn">🗑️ Lixeira (<span id="trash-count">0</span>)</a>
+            </aside>
+            <main class="content-area">
+                <form id="profile-form">
+                    <div class="profile-container-card">
+                        <div class="form-fields-grid">
+                            <div class="input-box">
+                                <label for="profile-username">Usuário (Apelido):</label>
+                                <input type="text" id="profile-username" disabled style="background: rgba(0,0,0,0.4);">
+                            </div>
+                            <div class="input-box">
+                                <label for="profile-password">Nova Senha:</label>
+                                <input type="password" id="profile-password" placeholder="Nova senha se quiser alterar">
+                            </div>
+                            <div class="input-box full-width">
+                                <label for="profile-fullname">Nome Completo:</label>
+                                <input type="text" id="profile-fullname" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="profile-email">E-mail:</label>
+                                <input type="email" id="profile-email" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="profile-birthdate">Data de Nascimento:</label>
+                                <input type="date" id="profile-birthdate">
+                            </div>
+                        </div>
+                        <div class="form-footer-actions">
+                            <button type="submit" class="btn" style="width: auto; padding: 15px 40px;">Atualizar Dados</button>
+                        </div>
+                    </div>
+                </form>
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>
