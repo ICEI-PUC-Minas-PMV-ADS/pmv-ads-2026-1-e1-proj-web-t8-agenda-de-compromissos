@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todas as Tarefas</title>
+    <link rel="stylesheet" href="../style/task.css">
+    <script src="../js/shared.js"></script>
+    <script src="../js/router.js"></script>
+    <script src="../js/task.js"></script>
+</head>
+<body>
+    <div class="background-glow"></div>
+    <div id="main-dashboard" class="screen conteiner">
+        <header>
+            <h1>📅 Minha Agenda</h1>
+            <div class="user-info">
+                Olá, <span id="current-user-name"></span>! 
+                <button id="logout-btn">Sair</button>
+            </div>
+        </header>
+        <div class="dashboard-layout">
+            <aside class="sidebar">
+                <a href="dashboard.html" class="nav-btn">🗓️ Calendários</a>
+                <a href="task.html" class="nav-btn active">📋 Todas as Tarefas</a>
+                <a href="task-create.html" class="nav-btn">➕ Nova Tarefa</a>
+                <a href="profile.html" class="nav-btn">👤 Editar Perfil</a>
+                <a href="trash.html" class="nav-btn">🗑️ Lixeira (<span id="trash-count">0</span>)</a>
+            </aside>
+            <main class="content-area">
+                <h2>📋 Todas as Tarefas Cadastradas</h2>
+                <p class="subtitle" style="margin-bottom: 25px;">Clique em qualquer tarefa para editá-la ou movê-la para a lixeira.</p>
+                
+                <div id="all-tasks-list" class="task-list-container"></div>
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>
