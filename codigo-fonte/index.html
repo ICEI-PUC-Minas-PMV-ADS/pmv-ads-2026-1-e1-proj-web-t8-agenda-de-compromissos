@@ -1,38 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <script src="./js/index.js" defer></script>
-    <link rel="stylesheet" href="./style/index.css">
+    <title>Entrar na Agenda - Login</title>
+    <link rel="stylesheet" href="./style/auth.css">
 </head>
 <body>
+
     <div class="background-glow"></div>
-    <div class="container"> 
-        <form id="formLogin"> 
-            <h2>Realize seu Login</h2>
-            <p class="subtitle">Acesse Sua Agenda</p>
 
-            <!--Caixa de Texto Email-->
-            <div class="input-box">
-                <label for="loginEmail">E-MAIL</label>
-                <input type="email" name="loginEmail" id="loginEmail" placeholder="Digite seu Email...">
-            </div>
+    <div id="auth-screen" class="screen conteiner">
+        <div id="formLogin">
+            <h2 id="auth-title">Entrar na Agenda</h2>
+            <p class="subtitle">Insira suas credenciais para acessar o painel</p>
+            
+            <form id="auth-form">
+                <div class="input-box">
+                    <label for="username">Usuário (Apelido):</label>
+                    <input type="text" id="username" required placeholder="Seu usuário...">
+                </div>
+                <div class="input-box">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" required placeholder="Sua senha...">
+                </div>
 
+                <button type="submit" id="auth-btn" class="btn">Entrar</button>
+            </form>
 
-            <!--Caixa de Texto Senha-->
-            <div class="input-box">
-                <label for="loginSenha">SENHA</label>
-                <input type="password" name="loginSenha" id="loginSenha" placeholder="Digite sua Senha...">
-            </div>
-
-            <!---Botão de Realizar Login-->
-            <input type="submit" value="LOGAR" class="btn">
-<br><br>
-<a href="./html/register.html">Realize Seu Cadastro</a>
-        </form>
-        <span id="mensagemLogin"></span>
+            <p id="toggle-auth" style="color: #9aa4b2; margin-top: 20px; font-size: 12px; cursor: pointer;">
+                Ainda não tem conta? <a href="html/register_user.html" style="color: #00ffff; font-weight: bold; text-decoration: none;">Cadastre-se</a>
+            </p>
+        </div>
     </div>
+
+    <script src="./js/shared.js"></script>
+    <script src="./js/auth.js"></script>
 </body>
 </html>
