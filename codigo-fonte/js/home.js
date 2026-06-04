@@ -100,7 +100,7 @@ function controlarConclusao(checkbox, id) {
     if (checkbox.checked) {
         card.style.opacity = "0.5";
         card.style.textDecoration = "line-through";
-        timersDeRemocao[id] = setTimeout(() => removerDefinitivamente(id), 120000); 
+        timersDeRemocao[id] = setTimeout(() => removerDefinitivamente(id), 120); 
     } else {
         if (timersDeRemocao[id]) {
             clearTimeout(timersDeRemocao[id]);
