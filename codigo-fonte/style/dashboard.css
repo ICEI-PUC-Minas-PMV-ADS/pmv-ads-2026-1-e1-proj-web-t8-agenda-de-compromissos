@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap');
+
+:root {
+    --primary-color: #00ffff;
+    --secondary-color: #0077ff;
+    --panel-bg: rgba(15, 20, 35, 0.75);
+    --border-glow: rgba(0, 255, 255, 0.2);
+    --text-main: #ffffff;
+    --text-muted: #9aa4b2;
+    --text-label: #c7d2fe;
+    --danger-color: #ff0055;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Orbitron', sans-serif; }
+
+body {
+    background: linear-gradient(135deg, #020342, #0b0c10);
+    color: var(--text-main);
+    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.background-glow {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(0, 119, 255, 0.2), transparent 70%);
+    border-radius: 50%;
+    filter: blur(60px);
+    z-index: 1;
+    left: 50%; top: 50%; transform: translate(-50%, -50%);
+}
+
+.conteiner { position: relative; z-index: 2; width: 100%; }
+.hidden { display: none !important; }
+.screen { width: 100%; height: 100vh; }
+
+#main-dashboard { display: flex; flex-direction: column; height: 100vh; }
+
+header {
+    background: rgba(10, 15, 30, 0.85);
+    backdrop-filter: blur(10px);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-glow);
+}
+
+header h1 { font-size: 22px; color: var(--primary-color); text-shadow: 0 0 10px rgba(0, 255, 255, 0.5); }
+
+.user-info { font-size: 14px; color: var(--text-label); display: flex; align-items: center; gap: 15px; }
+
+#logout-btn {
+    background: transparent; border: 1px solid var(--danger-color); color: var(--danger-color);
+    padding: 6px 14px; border-radius: 8px; cursor: pointer; transition: 0.3s; font-size: 11px; font-weight: bold;
+}
+#logout-btn:hover { background: var(--danger-color); color: white; box-shadow: 0 0 10px rgba(255, 0, 85, 0.4); }
+
+.dashboard-layout { display: flex; flex: 1; overflow: hidden; }
+
+.sidebar {
+    width: 260px; background: rgba(10, 15, 30, 0.6); backdrop-filter: blur(10px);
+    border-right: 1px solid var(--border-glow); padding: 30px 15px; display: flex; flex-direction: column; gap: 10px;
+}
+
+.nav-btn {
+    text-align: left; background: transparent; color: var(--text-muted); padding: 14px 18px;
+    border-radius: 12px; border: 1px solid transparent; cursor: pointer; transition: 0.3s ease; font-size: 13px; font-weight: 600;
+}
+.nav-btn:hover, .nav-btn.active {
+    background: rgba(0, 255, 255, 0.05); color: var(--primary-color); border-color: rgba(0, 255, 255, 0.3);
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.4); transform: translateX(3px);
+}
+
+.content-area { flex: 1; padding: 35px; overflow-y: auto; background: rgba(5, 8, 18, 0.4); }
+
+.calendar-controls {
+    display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;
+    background: var(--panel-bg); padding: 15px 20px; border-radius: 16px; border: 1px solid var(--border-glow); backdrop-filter: blur(10px);
+}
+
+.view-switcher .view-btn {
+    background: rgba(255, 255, 255, 0.05); color: var(--text-muted); margin-right: 5px;
+    padding: 8px 16px; border-radius: 8px; border: 1px solid transparent; cursor: pointer; font-weight: bold; font-size: 12px; transition: 0.3s;
+}
+.view-switcher .view-btn.active {
+    background: rgba(0, 255, 255, 0.1); color: var(--primary-color); border-color: var(--primary-color); box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.calendar-navigation { display: flex; align-items: center; gap: 15px; }
+.calendar-navigation button { padding: 8px 12px; border-radius: 8px; background: rgba(255, 255, 255, 0.05); color: var(--primary-color); border: 1px solid var(--border-glow); cursor: pointer; }
+#calendar-title { font-size: 16px; color: #fff; margin-bottom: 0; }
+
+.calendar-grid { background: var(--panel-bg); border-radius: 16px; border: 1px solid var(--border-glow); padding: 20px; backdrop-filter: blur(10px); }
+.month-grid { display: grid !important; grid-template-columns: repeat(7, 1fr) !important; gap: 10px; }
+
+.calendar-cell {
+    border: 1px solid rgba(255, 255, 255, 0.05); min-height: 115px; padding: 10px;
+    background: rgba(0, 0, 0, 0.2); display: flex; flex-direction: column; border-radius: 10px; transition: 0.2s;
+}
+.calendar-cell:hover { border-color: rgba(0, 255, 255, 0.3); background: rgba(0, 255, 255, 0.02); }
+
+.cell-header { font-weight: bold; margin-bottom: 8px; font-size: 13px; color: var(--text-muted); }
+.cell-header.weekday {
+    text-align: center; background: rgba(255, 255, 255, 0.03); color: var(--text-label);
+    padding: 10px 0; border: none; min-height: auto; border-radius: 6px; font-size: 11px; text-transform: uppercase;
+}
+
+.task-item-badge {
+    background-color: rgba(0, 119, 255, 0.15); color: #ffffff; padding: 5px 8px; border-radius: 6px; font-size: 11px;
+    margin-bottom: 6px; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-left: 3px solid var(--primary-color); transition: 0.2s;
+}
+.task-item-badge:hover { background-color: rgba(0, 255, 255, 0.2); box-shadow: 0 0 8px rgba(0, 255, 255, 0.3); }
+
+.week-grid, .day-grid { display: flex; flex-direction: column; gap: 12px; }
+.timeline-row { display: flex; border-bottom: 1px solid rgba(255, 255, 255, 0.05); padding: 15px 0; }
+.timeline-day-label { width: 130px; font-weight: bold; color: var(--text-label); font-size: 13px; }
+.timeline-tasks { flex: 1; display: flex; flex-wrap: wrap; gap: 8px; }
+
+@media (max-width: 900px) {
+    .dashboard-layout { flex-direction: column; }
+    .sidebar { width: 100%; height: auto; flex-direction: row; overflow-x: auto; padding: 15px; }
+}
+
+/* Força o elemento a sumir completamente da tela quando tiver a classe hidden */
+.hidden {
+    display: none !important;
+}
+
+/* Garante que a estrutura da semana fique em colunas lado a lado (7 colunas para os 7 dias) */
+.week-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+    min-height: 400px;
+}
+
+/* Estilo para a estrutura do dia ocupar o espaço correto */
+.day-grid {
+    display: block;
+    width: 100%;
+}
+
+
+
+/* Responsividade para celular */
+@media (max-width: 480px) {
+    #formLogin {
+        padding: 30px; /* Reduz o padding para ganhar espaço */
+    }
+
+    h2 {
+        font-size: 24px; /* Diminui um pouco o título */
+    }
+
+    .subtitle {
+        font-size: 11px;
+    }
+}
