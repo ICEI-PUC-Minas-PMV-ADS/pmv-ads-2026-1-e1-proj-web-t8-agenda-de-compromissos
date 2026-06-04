@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Tarefa</title>
+    <script src="../js/shared.js"></script>
+    <script src="../js/router.js"></script>
+    <script src="../js/dashboard.js"></script>
+    <script src="../js/task-edit.js"></script>
+    <link rel="stylesheet" href="../style/edit_task.css">
+</head>
+<body>
+    <div class="background-glow"></div>
+    <div id="main-dashboard" class="screen conteiner">
+        <div class="dashboard-layout">
+            <main class="content-area" style="width: 100%;">
+                <div class="task-form-header">
+                    <div class="header-icon-title">
+                        <span class="sparkle-icon">✏️</span>
+                        <div>
+                            <h2>Editar Tarefa</h2>
+                            <p class="subtitle">Modifique os detalhes da sua atividade</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="task-edit-form">
+                    <input type="hidden" id="edit-task-id">
+                    <div class="form-container-grid">
+                        <div class="category-selector">
+                            <label style="color: #c7d2fe; font-size: 12px; font-weight: bold;">Categoria</label>
+                            <input type="hidden" id="edit-task-category" value="Outro">
+                            <button type="button" class="cat-edit-btn" data-cat="Viagem">✈️ Viagem</button>
+                            <button type="button" class="cat-edit-btn" data-cat="Café">☕ Café</button>
+                            <button type="button" class="cat-edit-btn" data-cat="Almoço">🍛 Almoço</button>
+                            <button type="button" class="cat-edit-btn" data-cat="Job">💼 Job</button>
+                            <button type="button" class="cat-edit-btn" data-cat="Lazer">🚲 Lazer</button>
+                            <button type="button" class="cat-edit-btn active" data-cat="Outro">➕ Outro</button>
+                        </div>
+
+                        <div class="form-fields-grid">
+                            <div class="input-box">
+                                <label for="edit-task-title">O que será feito?</label>
+                                <input type="text" id="edit-task-title" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="edit-task-location">Onde?</label>
+                                <input type="text" id="edit-task-location">
+                            </div>
+                            <div class="input-box">
+                                <label for="edit-task-date">Data Limite</label>
+                                <input type="date" id="edit-task-date" required>
+                            </div>
+                            <div class="input-box">
+                                <label>Horário</label>
+                                <div class="time-input-split">
+                                    <input type="number" id="edit-task-hour" min="0" max="23" required>
+                                    <span>:</span>
+                                    <input type="number" id="edit-task-minute" min="0" max="59" required>
+                                </div>
+                            </div>
+                            <div class="input-box full-width">
+                                <label>Integrantes</label>
+                                <div class="tags-input-container">
+                                    <input type="text" id="edit-member-input" placeholder="Adicionar nome...">
+                                    <button type="button" id="edit-add-member-btn">+</button>
+                                </div>
+                                <div id="edit-members-tags-list" class="tags-list"></div>
+                            </div>
+                            <div class="input-box full-width">
+                                <label for="edit-task-desc">Notas Adicionais</label>
+                                <textarea id="edit-task-desc" rows="4"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-footer-actions">
+                        <button type="button" class="btn cancel-to-list" style="background: gray; width: auto; padding: 15px 40px;">Cancelar</button>
+                        <button type="submit" class="btn" style="width: auto; padding: 15px 40px; background: linear-gradient(90deg, #00ff88, #0077ff);">Salvar Alterações</button>
+                    </div>
+                </form>
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>
