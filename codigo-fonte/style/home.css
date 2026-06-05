@@ -334,7 +334,6 @@ hr {
   transform: scale(1.1);
 }
 
-/* Área dos filtros: pesquisa por título + data */
 .filters-area {
   width: 85%;
   margin-top: 18px;
@@ -345,7 +344,6 @@ hr {
   gap: 10px;
 }
 
-/* Caixa da lupa e caixa da data */
 .search-area,
 .date-filter-area {
   width: 100%;
@@ -362,13 +360,11 @@ hr {
   box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
 }
 
-/* Ícone da lupa */
 .search-icon {
   font-size: 14px;
   color: #00ffff;
 }
 
-/* Inputs da pesquisa e da data */
 .search-area input,
 .date-filter-area input {
   width: 100%;
@@ -380,32 +376,28 @@ hr {
   font-size: 12px;
 }
 
-/* Placeholder da pesquisa */
+
 .search-area input::placeholder {
   color: rgba(255, 255, 255, 0.45);
 }
 
-/* Texto DATA */
 .date-filter-area label {
   color: #00ffff;
   font-size: 11px;
   white-space: nowrap;
 }
 
-/* Ícone do calendário */
 .date-filter-area input::-webkit-calendar-picker-indicator {
   filter: invert(1) sepia(1) saturate(5) hue-rotate(145deg);
   cursor: pointer;
 }
 
-/* Efeito quando clica no campo */
 .search-area:focus-within,
 .date-filter-area:focus-within {
   border-color: #00ffff;
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.45);
 }
 
-/* Quando estiver pesquisando, o JS aplica essas classes */
 .hidden-priority-title {
   display: none;
 }
@@ -414,7 +406,6 @@ hr {
   display: none;
 }
 
-/* Mensagem quando nenhum resultado for encontrado */
 .empty-search-message {
   color: #d1d5db;
   text-align: center;
