@@ -1,206 +1,423 @@
-:root {
-    --primary: #6366f1;
-    --bg-dark: #0f172a;
-    --glass-bg: rgba(255, 255, 255, 0.7);
-    --glass-border: rgba(255, 255, 255, 0.4);
-    --text-main: #1e293b;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
 }
 
 body {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: var(--bg-dark);
-    margin: 0;
-    min-height: 100vh;
-    color: var(--text-main);
+  background: linear-gradient(
+    to bottom,
+    #000000 0%,
+    #10111f 35%,
+    #0e1038 65%,
+    #000138 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
-/* Reutilizando Background */
-.background-blobs { position: fixed; width: 100%; height: 100%; z-index: -1; }
-.blob { position: absolute; width: 500px; height: 500px; border-radius: 50%; filter: blur(80px); opacity: 0.3; }
-.color-1 { background: #818cf8; top: -10%; left: -5%; }
-.color-2 { background: #c084fc; bottom: -10%; right: -5%; }
-
-.container-lista {
-    padding: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(550px, 92vw);
+  height: 90vh;
+  gap: 10px;
+  padding: 10px;
+  background: rgba(15, 20, 35, 0.75);
+  border: 1px solid #005a5a;
+  border-radius: 20px;
+  animation: float 4s ease-in-out infinite;
+  overflow: hidden;
 }
 
-/* Header */
-.top-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
+@keyframes float {
+  0% {
+    transform: translateY(0px);    
+  }
+  50% {
+    transform: translateY(-2px);     
+  }   
+  100% {
+    transform: translateY(0px);     
+  }
 }
 
-.main-title {
-    background: #e2e8f0;
-    padding: 10px 40px;
-    border-radius: 12px;
-    font-weight: 800;
-    font-size: 1.5rem;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+.title {
+  color: rgba(0, 255, 255, 0.7);
+  margin-bottom: 8px;
+  font-size: 35px;
+  text-shadow: 0 0 15px #00ffffb3;
+  padding-top: 30px;
+  text-align: center;
 }
 
-.search-box {
-    background: white;
-    padding: 8px 15px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+hr {
+  width: 90%;
+  border: none;
+  height: 2px;
+  background-color: rgba(0, 255, 255, 0.7);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+  margin-top: 20px;
 }
 
-.search-box input { border: none; outline: none; }
-
-/* Resumo */
-.summary-section {
-    display: grid;
-    grid-template-columns: 150px 1fr 200px;
-    background: var(--glass-bg);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    padding: 20px;
-    margin-bottom: 30px;
-    gap: 20px;
+.tasks-scroll,
+.info-scroll {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 0 18px 20px 18px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
-.month-display { font-size: 2rem; font-weight: 700; align-self: center; }
-
-.schedule-summary { display: flex; gap: 40px; }
-.summary-col h3 { font-size: 0.9rem; margin-bottom: 10px; opacity: 0.8; }
-
-.mini-list { font-size: 0.85rem; display: flex; flex-direction: column; gap: 5px; }
-.mini-item { display: flex; justify-content: space-between; gap: 20px; }
-.dot { height: 8px; width: 8px; border-radius: 50%; display: inline-block; margin-right: 5px; }
-
-/* Quadro Kanban */
-.kanban-board {
-    display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+.tasks-scroll::-webkit-scrollbar,
+.info-scroll::-webkit-scrollbar {
+  display: none;
 }
 
-.kanban-col {
-    flex: 1;
-    background: rgba(226, 232, 240, 0.8);
-    border-radius: 20px;
-    padding: 15px;
-    min-height: 400px;
-    min-width: 0;
+.urgency-section {
+  width: 90%;
+  margin: 20px auto 0 auto;
 }
 
-.badge {
-    padding: 8px 15px;
-    border-radius: 8px;
-    color: white;
-    font-weight: bold;
-    font-size: 0.8rem;
-    margin-bottom: 20px;
-    display: inline-block;
+.h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
-.red { background: #f87171; }
-.yellow { background: #fbbf24; }
-.green { background: #34d399; }
-.blue { background: #3b82f6; }
-
-/* Cards de Tarefa */
-.task-card {
-    background: white;
-    padding: 15px;
-    border-radius: 12px;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+.alta-title {
+  color: #ff4d4d;
 }
 
-.task-card input[type="checkbox"] { transform: scale(1.2); }
-.task-info h4 { margin: 0; font-size: 0.95rem; }
-.task-info p { margin: 0; font-size: 0.75rem; color: #64748b; }
+.media-title {
+  color: #fbbf24;
+}
 
-@media (max-width: 768px) {
-    .summary-section { grid-template-columns: 1fr; }
-    .kanban-board { grid-template-columns: 1fr; }
+.baixa-title {
+  color: #34d399;
+}
+
+.hoje-title,
+.amanha-title {
+  color: #00ffffb3;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .task-card {
-    transition: transform 0.5s ease, opacity 0.5s ease, background 0.3s;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #00ffffb3;
+  border-radius: 15px;
+  padding: 12px;
+  color: white;
+  box-shadow: 0 0 10px rgba(173, 255, 47, 0.15);
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  transition: transform 0.4s ease, opacity 0.4s ease, background 0.3s ease;
 }
 
-/* Quando o checkbox é marcado, podemos dar um feedback visual */
-.task-card:has(input:checked) {
-    background: #f1f5f9;
-    border-left: 4px solid #34d399; /* Verde para indicar conclusão */
+.task-card input[type="checkbox"] {
+  margin-top: 4px;
+  transform: scale(1.1);
+  cursor: pointer;
+  accent-color: #00ffff;
 }
 
-/* Layout Principal */
-.quadros-container {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-    overflow-x: auto; /* Permite scroll horizontal em telas médias */
-    align-items: flex-start;
+.task-info {
+  width: 100%;
 }
 
-/* Colunas Individuais */
-.coluna {
-    flex: 1;
-    min-width: 280px; /* Garante que a coluna não fique muito estreita */
-    background-color: #f4f4f9; /* Ou a cor que você definiu no seu projeto */
-    border-radius: 8px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    transition: all 0.3s ease;
+.task-card h3 {
+  font-size: 15px;
+  color: #00ffffb3;
+  margin-bottom: 6px;
 }
 
-/* --- RESPONSIVIDADE (Celulares e Tablets) --- */
-
-@media (max-width: 1024px) {
-    .quadros-container {
-        padding: 10px;
-        gap: 15px;
-    }
+.task-card p {
+  font-size: 12px;
+  color: #d1d5db;
+  margin-top: 4px;
 }
 
-@media (max-width: 768px) {
-    .quadros-container {
-        flex-direction: column; /* Empilha as colunas verticalmente */
-        overflow-x: hidden;
-    }
+.status-andamento {
+  color: #ff4d4d;
+  font-weight: bold;
+}
 
-    .coluna {
-        width: 100%; /* Ocupa a largura total da tela */
-        min-width: unset;
-    }
+.hidden {
+  display: none;
+}
 
-    /* Ajuste da barra de pesquisa e resumo superior para telas pequenas */
-    .header-info {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
-    }
+.switch-container-btn {
+  position: fixed;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 22px;
+  border-radius: 20px;
+  border: 1px solid #00ffff;
+  background: rgba(15, 20, 35, 0.9);
+  color: #00ffff;
+  cursor: pointer;
+  font-size: 12px;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.7);
+  z-index: 10;
+}
 
-    .search-bar {
-        width: 90%;
-    }
-    
-    .resumo-superior {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .kanban-board {
-        flex-direction: column; /* Empilha apenas no celular para não ficar ilegível */
-    }
-    
-    .summary-section { 
-        grid-template-columns: 1fr; 
-    }
+.switch-container-btn:hover {
+  background: rgba(0, 255, 255, 0.15);
+}
+
+#monthDisplay {
+  color: #00ffff;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-shadow: 0 2px 5px #00ffff;
+  font-size: 40px;
+  text-align: center;
+}
+
+.info-content {
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.info-content::-webkit-scrollbar {
+  display: none;
+}
+
+.info-section {
+  width: 90%;
+  margin-top: 20px;
+}
+
+.mini-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.mini-item {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #00ffffb3;
+  border-radius: 12px;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 12px;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.18);
+}
+
+.mini-item span:first-child {
+  color: #00ffffb3;
+  font-weight: 600;
+}
+
+.mini-item span:last-child {
+  color: #d1d5db;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 94vw;
+    height: 86vh;
+    border-radius: 30px;
+  }
+
+  .title {
+    font-size: 26px;
+    padding-top: 22px;
+  }
+
+  .h2 {
+    font-size: 15px;
+  }
+
+  .task-card h3 {
+    font-size: 13px;
+  }
+
+  .task-card p {
+    font-size: 11px;
+  }
+
+  #monthDisplay {
+    font-size: 32px;
+  }
+
+  .switch-container-btn {
+    bottom: 60px;
+    font-size: 11px;
+    padding: 7px 18px;
+  }
+}
+.task-container {
+  position: relative;
+}
+
+.add-task-btn {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1;
+  color: #00ffff;
+  background: rgba(15, 20, 35, 0.95);
+  border: 1px solid #00ffff;
+  box-shadow: 
+    0 0 10px rgba(0, 255, 255, 0.8),
+    inset 0 0 8px rgba(0, 255, 255, 0.15);
+  cursor: pointer;
+  z-index: 5;
+}
+
+.add-task-btn:hover {
+  background: rgba(0, 255, 255, 0.15);
+  transform: translateX(-50%) scale(1.08);
+}
+
+.edit-task-btn {
+  margin-left: auto;
+  text-decoration: none;
+  font-size: 15px;
+  color: #00ffff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(0, 255, 255, 0.5);
+  background: rgba(0, 255, 255, 0.08);
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.25);
+  transition: 0.3s ease;
+}
+
+.edit-task-btn:hover {
+  background: rgba(0, 255, 255, 0.2);
+  transform: scale(1.1);
+}
+
+/* Área dos filtros: pesquisa por título + data */
+.filters-area {
+  width: 85%;
+  margin-top: 18px;
+  margin-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Caixa da lupa e caixa da data */
+.search-area,
+.date-filter-area {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 9px 14px;
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(0, 255, 255, 0.65);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+/* Ícone da lupa */
+.search-icon {
+  font-size: 14px;
+  color: #00ffff;
+}
+
+/* Inputs da pesquisa e da data */
+.search-area input,
+.date-filter-area input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+
+  color: white;
+  font-size: 12px;
+}
+
+/* Placeholder da pesquisa */
+.search-area input::placeholder {
+  color: rgba(255, 255, 255, 0.45);
+}
+
+/* Texto DATA */
+.date-filter-area label {
+  color: #00ffff;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+/* Ícone do calendário */
+.date-filter-area input::-webkit-calendar-picker-indicator {
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(145deg);
+  cursor: pointer;
+}
+
+/* Efeito quando clica no campo */
+.search-area:focus-within,
+.date-filter-area:focus-within {
+  border-color: #00ffff;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.45);
+}
+
+/* Quando estiver pesquisando, o JS aplica essas classes */
+.hidden-priority-title {
+  display: none;
+}
+
+.hidden-priority-section {
+  display: none;
+}
+
+/* Mensagem quando nenhum resultado for encontrado */
+.empty-search-message {
+  color: #d1d5db;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 20px;
 }

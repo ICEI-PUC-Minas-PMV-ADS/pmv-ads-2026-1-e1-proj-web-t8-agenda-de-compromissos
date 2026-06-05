@@ -48,10 +48,13 @@ body {
     100% { transform: scale(1); opacity: 0.5; }
 }
 
-.conteiner {
+.container {
     position: relative;
     z-index: 2;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hidden { display: none !important; }
@@ -67,7 +70,7 @@ body {
     align-items: center;
 }
 
-#formLogin {
+#auth-form {
     width: 420px;
     padding: 40px;
     border-radius: 25px;
@@ -160,14 +163,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 @media (max-width: 500px) {
-    #formLogin { width: 95%; padding: 25px; }
+    #auth-form { width: 95%; padding: 25px; }
 }
 
 
 
 /* Responsividade para celular */
 @media (max-width: 480px) {
-    #formLogin {
+    #auth-form {
         padding: 30px; /* Reduz o padding para ganhar espaço */
     }
 

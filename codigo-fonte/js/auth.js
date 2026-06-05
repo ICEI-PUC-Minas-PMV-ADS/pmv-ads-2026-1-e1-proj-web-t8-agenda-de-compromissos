@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (storedUserData && storedPassword === pass) {
                 localStorage.setItem('agenda_current_user', user);
-                window.location.href = 'html/dashboard.html';
+                window.location.href = './html/home.html';
             } else {
                 alert('Usuário ou senha incorretos.');
             }
