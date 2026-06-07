@@ -2,43 +2,77 @@
 
 Implementação da aplicação descritas por meio dos requisitos codificados. 
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
 
-### Título da funcionalidade
+### Tela de Cadastro (RF-001)
 
-[Adicione imagem da funcionalidade/tela]
-
+<img width="762" height="1186" alt="TELA-DE-CADASTRO" src="https://github.com/user-attachments/assets/bf9d8361-a40d-4388-b343-9bee7dbce4d8" />
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
-
+RF-001: O sistema deve permitir que o usuário possa cadastrar uma nova conta ou entrar/sair dela (login/logout)
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
+register_user.html
+auth.css
+auth.js
+shared.js
+router.js
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
-
+Abra um navegador de Internet e informe a seguinte URL: 
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+Lucas Felipe dos Santos Lamarca
 
 
+### Tela de Login (RF-001)
+
+<img width="786" height="1123" alt="TELA-LOGIN" src="https://github.com/user-attachments/assets/ef536105-ae2f-4ca2-91cf-88297f101293" />
+
+#### Requisito atendido
+
+RF-001: O sistema deve permitir que o usuário possa cadastrar uma nova conta ou entrar/sair dela (login/logout)
+
+#### Artefatos da funcionalidade
+
+index.html
+auth.css
+auth.js
+shared.js
+router.js
+
+#### Instruções de acesso
+
+Abra um navegador de Internet e informe a seguinte URL: 
+
+#### Responsável
+
+William Rocha dos Santos
 
 
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+### Tela de Cadastro de Tarefas (RF-002)
 
+<img width="2559" height="1313" alt="CADASTRO-DE-TAREFAS" src="https://github.com/user-attachments/assets/9ed8a286-de6d-4197-85cd-f5962a77d93c" />
+
+#### Requisito atendido
+
+RF-002: O sistema deve permitir que o usuário crie uma tarefa com título, descrição, data/hora
+
+#### Artefatos da funcionalidade
+
+task-create.html
+task.css
+task-create.js
+shared.js
+router.js
+
+#### Instruções de acesso
+
+Abra um navegador de Internet e informe a seguinte URL: 
+
+#### Responsável
+
+Pablo Luiz Amaro de Miranda
