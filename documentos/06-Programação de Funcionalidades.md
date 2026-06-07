@@ -5,7 +5,16 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 ### Tela de Cadastro (RF-001)
 
+#### Responsável
+
+Lucas Felipe dos Santos Lamarca
+
+Exemplo da tela de cadastro:
+
+
 <img width="762" height="1186" alt="TELA-DE-CADASTRO" src="https://github.com/user-attachments/assets/bf9d8361-a40d-4388-b343-9bee7dbce4d8" />
+
+
 
 #### Requisito atendido
 
@@ -13,20 +22,17 @@ RF-001: O sistema deve permitir que o usuário possa cadastrar uma nova conta ou
 
 #### Artefatos da funcionalidade
 
-register_user.html
-auth.css
-auth.js
-shared.js
-router.js
+●register_user.html
+●auth.css
+●auth.js
+●shared.js
+●router.js
 
 #### Instruções de acesso
 
 Abra um navegador de Internet e informe a seguinte URL: 
 
-#### Responsável
-
-Lucas Felipe dos Santos Lamarca
-
+<hr>
 
 ### Tela de Login (RF-001)
 
@@ -38,11 +44,11 @@ RF-001: O sistema deve permitir que o usuário possa cadastrar uma nova conta ou
 
 #### Artefatos da funcionalidade
 
-index.html
-auth.css
-auth.js
-shared.js
-router.js
+●index.html
+●auth.css
+●auth.js
+●shared.js
+●router.js
 
 #### Instruções de acesso
 
@@ -63,11 +69,11 @@ RF-002: O sistema deve permitir que o usuário crie uma tarefa com título, desc
 
 #### Artefatos da funcionalidade
 
-task-create.html
-task.css
-task-create.js
-shared.js
-router.js
+●task-create.html
+●task.css
+●task-create.js
+●shared.js
+●router.js
 
 #### Instruções de acesso
 
