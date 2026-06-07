@@ -68,7 +68,7 @@ horário, prioridade, e tipo de evento;
 | RF-09 |O sistema deve permitir que o usuário organize as tarefas por ordem de prioridade| Média |
 | RF-10 |O sistema deve permitir que o usuário veja o intervalo de tempo para a conclusão da tarefa| Média |
 | RF-11 |O sistema deve enviar as tarefas excluídas para uma lixeira deixando a possibilidade de restauração| Baixa |
-| RF-12 |O sistema deve permitir ao usuário visualizar seus dados cadastrais, assim como também os editem| Baixa |
+| RF-12 |O sistema deve permitir ao usuário visualizar seus dados cadastrais, assim como também que os editem| Baixa |
 
 
 ### Requisitos não Funcionais
