@@ -4,8 +4,8 @@
 
 Para otimizar o fluxo de trabalho com o Git e manter o repositório organizado, sugerimos organizar o projeto de forma que cada aluno gerencie seus arquivos dentro de pastas identificadas pelo nome das respectivas telas:
 - Pasta src (root do projeto): router.js, shared.js, index.html, index.css, index.js, task-create.html, task-create.css, task-create.js, task.html, task.css, task.js, edit_tasks.html, edit_tasks.css, edit_tasks.js, trash.html, trash.css, trash.js, dashboard.html, dashboard.css, dashboard.js, profile.html, profile.css, profile.js - Desenvolvedor responsável: Pablo.
-- Pasta src\interface: home.html, home.css, home.js - Desenvolvedora responsável: Jose.
-- Pasta src\clientes: register_user.html, register_user.css, register_user.js - Desenvolvedor responsável: Willian.
+- Pasta src\interface: home.html, home.css, home.js - Desenvolvedora responsável: José.
+- Pasta src\clientes: register_user.html, register_user.css, register_user.js - Desenvolvedor responsável: William.
 - Pasta src\clientes: register_user.html, register_user.css, register_user.js - Desenvolvedor responsável: Lucas.
 - Pasta src\clientes: profile.html, profile.css, profile.js - Desenvolvedora responsável: Marco.
 
