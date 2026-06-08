@@ -35,6 +35,7 @@ RF-001: O sistema deve permitir que o usuário possa cadastrar uma nova conta ou
 #### Instruções de acesso
 
 1.Abra um navegador de Internet e informe a seguinte URL: 
+
 2. Clique no botão realize seu cadastro, abaixo do botão logar, e terá acesso a página de cadastro de usuário.
 
 <hr>
@@ -71,6 +72,7 @@ RF-001: O sistema deve permitir que o usuário possa cadastrar uma nova conta ou
 #### Instruções de acesso
 
 1.Abra um navegador de Internet e informe a seguinte URL: 
+
 2. Terá acesso a página de login.
 
 <hr>
@@ -111,7 +113,9 @@ RF-006: O sistema deve permitir que o usuário tenha a possibilidade de definir 
 #### Instruções de acesso
 
 1.Abra um navegador de Internet e informe a seguinte URL:
+
 2.Realize seu login e terá acesso à página de lista de tarefas, Clique no botão + na parte inferior e será redirecionado.
+
 3.Ao clicar em editar perfil no canto superior esquerdo terá acesso a página de editar perfil.
 
 <hr>
@@ -150,7 +154,9 @@ RF-003: O sistema deve permitir que o usuário gerencie suas tarefas
 #### Instruções de acesso
 
 1.Abra um navegador de Internet e informe a seguinte URL:
+
 2.Realize seu login e terá acesso à página de lista de tarefas, Clique no botão + na parte inferior e será redirecionado.
+
 3.Ao clicar em todas as tarefas no canto superior esquerdo terá acesso a página de gerenciar tarefas.
 
 <hr>
@@ -197,6 +203,7 @@ RF-010: O sistema deve permitir que o usuário veja o intervalo de tempo para a 
 #### Instruções de acesso
 
 1.Abra um navegador de Internet e informe a seguinte URL:
+
 2.Realize seu login e terá acesso à página de lista de tarefas.
 
 <hr>
@@ -235,7 +242,9 @@ RF-011: O sistema deve enviar as tarefas excluídas para uma lixeira deixando a 
 #### Instruções de acesso
 
 1.Abra um navegador de Internet e informe a seguinte URL:
+
 2.Realize seu login e terá acesso à página de lista de tarefas, Clique no botão + na parte inferior e será redirecionado.
+
 3.Ao clicar em lixeira no canto superior esquerdo terá acesso a página de lixeira.
 
 <hr>
@@ -274,5 +283,7 @@ RF-012: O sistema deve permitir ao usuário visualizar seus dados cadastrais, as
 #### Instruções de acesso
 
 1.Abra um navegador de Internet e informe a seguinte URL:
+
 2.Realize seu login e terá acesso à página de lista de tarefas, Clique no botão + na parte inferior e será redirecionado.
+
 3.Ao clicar em editar perfil no canto superior esquerdo terá acesso a página de editar perfil.
