@@ -1,6 +1,6 @@
 # Programação de Funcionalidades
 
-Implementação da aplicação descritas por meio dos requisitos codificados. 
+<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md> Especificação do Projeto</a></span>, <a href=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/blob/main/documentos/03-Metodologia.md> Metodologia</a>, <a href=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/blob/main/documentos/04-Projeto%20de%20Interface.md> 
 
 
 ### Tela de Cadastro (RF-001)
@@ -172,7 +172,7 @@ O acesso a tela de lista de tarefas poderá ser feito ao clicar no botão "Inici
 #### Exemplo da tela de visualizar tarefas:
 
 
-<img width="2555" height="1310" alt="TELA-DE-INICIO" src="https://github.com/user-attachments/assets/6029a6a9-8ed4-4625-9bd1-251240a7b1fb" />
+<img width="2545" height="1308" alt="TELA-DE-INICIO-2" src="https://github.com/user-attachments/assets/f3a55463-e7c6-403b-bddf-4cb0ee19b9f4" />
 
 
 
