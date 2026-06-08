@@ -23,14 +23,19 @@ RF-001: O sistema deve permitir que o usuário possa cadastrar uma nova conta ou
 #### Artefatos da funcionalidade
 
 ●register_user.html
+
 ●auth.css
+
 ●auth.js
+
 ●shared.js
+
 ●router.js
 
 #### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL: 
+1.Abra um navegador de Internet e informe a seguinte URL: 
+2. Clique no botão realize seu cadastro, abaixo do botão logar, e terá acesso a página de cadastro de usuário.
 
 <hr>
 
@@ -54,18 +59,23 @@ RF-001: O sistema deve permitir que o usuário possa cadastrar uma nova conta ou
 #### Artefatos da funcionalidade
 
 ●index.html
+
 ●auth.css
+
 ●auth.js
+
 ●shared.js
+
 ●router.js
 
 #### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL: 
+1.Abra um navegador de Internet e informe a seguinte URL: 
+2. Terá acesso a página de login.
 
 <hr>
 
-### Tela de Cadastro de Tarefas (RF-002)
+### Tela de Cadastro de Tarefas (RF-002, RF-006)
 
 #### Responsável
 
@@ -76,29 +86,37 @@ O acesso a tela de cadastro de tarefas poderá ser feito ao clicar no botão "No
 #### Exemplo da tela de cadastro de tarefas:
 
 
-<img width="2559" height="1313" alt="CADASTRO-DE-TAREFAS" src="https://github.com/user-attachments/assets/9ed8a286-de6d-4197-85cd-f5962a77d93c" />
+<img width="2559" height="1313" alt="CADASTRO-DE-TAREFAS" src="https://github.com/user-attachments/assets/2879e4ba-da6f-4c6e-875a-0ee2dfd9b726" />
 
 
 
 #### Requisito atendido
 
-RF-002: O sistema deve permitir que o usuário crie uma tarefa com título, descrição, data/hora.
+RF-002: O sistema deve permitir que o usuário crie uma tarefa com título, descrição, data/hora
+
+RF-006: O sistema deve permitir que o usuário tenha a possibilidade de definir lembretes informando a data de conclusão da tarefa
 
 #### Artefatos da funcionalidade
 
-●task-create.html
-●task.css
-●task-create.js
+●task.html
+
+●edit_task.css
+
+●task-edit.js
+
 ●shared.js
+
 ●router.js
 
 #### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL: 
+1.Abra um navegador de Internet e informe a seguinte URL:
+2.Realize seu login e terá acesso à página de lista de tarefas, Clique no botão + na parte inferior e será redirecionado.
+3.Ao clicar em editar perfil no canto superior esquerdo terá acesso a página de editar perfil.
 
 <hr>
 
-### Tela de Cadastro de Tarefas (RF-003, RF-006)
+### Tela de Gerenciar Tarefas (RF-003)
 
 #### Responsável
 
@@ -115,20 +133,25 @@ O acesso a tela de gerenciar tarefas poderá ser feito ao clicar no botão "Toda
 
 #### Requisito atendido
 
-RF-003: O sistema deve permitir que o usuário gerencie suas tarefas.
-RF-006: O sistema deve permitir que o usuário tenha a possibilidade de definir lembretes informando a data de conclusão da tarefa
+RF-003: O sistema deve permitir que o usuário gerencie suas tarefas
 
 #### Artefatos da funcionalidade
 
 ●task.html
+
 ●edit_task.css
+
 ●task-edit.js
+
 ●shared.js
+
 ●router.js
 
 #### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL:
+1.Abra um navegador de Internet e informe a seguinte URL:
+2.Realize seu login e terá acesso à página de lista de tarefas, Clique no botão + na parte inferior e será redirecionado.
+3.Ao clicar em todas as tarefas no canto superior esquerdo terá acesso a página de gerenciar tarefas.
 
 <hr>
 
@@ -148,27 +171,37 @@ José Júlio de Paiva Neto
 #### Requisito atendido
 
 RF-004: O sistema deve permitir a visualização da lista de tarefas cadastradas.
+
 RF-005: O sistema deve permitir que o usuário pesquise o nome da tarefa pelo título ou data.
+
 RF-007: O sistema deve permitir que o usuário filtre as tarefas por data/prioridade.
+
 RF-008: O sistema deve permitir que o usuário marque as tarefas como concluídas ou em execução.
+
 RF-009: O sistema deve permitir que o usuário organize as tarefas por ordem de prioridade.
+
 RF-010: O sistema deve permitir que o usuário veja o intervalo de tempo para a conclusão da tarefa.
 
 #### Artefatos da funcionalidade
 
 ●task.html
+
 ●edit_task.css
+
 ●task-edit.js
+
 ●shared.js
+
 ●router.js
 
 #### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL:
+1.Abra um navegador de Internet e informe a seguinte URL:
+2.Realize seu login e terá acesso à página de lista de tarefas.
 
 <hr>
 
-### Tela de lixeira  (RF-011)
+### Tela de Lixeira  (RF-011)
 
 #### Responsável
 
@@ -190,11 +223,56 @@ RF-011: O sistema deve enviar as tarefas excluídas para uma lixeira deixando a 
 #### Artefatos da funcionalidade
 
 ●trash.html
+
 ●trash.css
+
 ●trash.js
+
 ●shared.js
+
 ●router.js
 
 #### Instruções de acesso
 
-Abra um navegador de Internet e informe a seguinte URL:
+1.Abra um navegador de Internet e informe a seguinte URL:
+2.Realize seu login e terá acesso à página de lista de tarefas, Clique no botão + na parte inferior e será redirecionado.
+3.Ao clicar em lixeira no canto superior esquerdo terá acesso a página de lixeira.
+
+<hr>
+
+### Tela de Editar Pperfil  (RF-012)
+
+#### Responsável
+
+Pablo Luiz Amaro de Miranda
+
+O acesso a tela de editar perfil poderá ser feito ao clicar no botão "Editar Perfil".
+
+#### Exemplo da tela de lixeira:
+
+
+<img width="2560" height="1313" alt="EDITAR-PERFIL" src="https://github.com/user-attachments/assets/e7865980-82b1-4515-a3d2-c80773394932" />
+
+
+
+#### Requisito atendido
+
+RF-012: O sistema deve permitir ao usuário visualizar seus dados cadastrais, assim como também que os editem.
+
+#### Artefatos da funcionalidade
+
+●trash.html
+
+●trash.css
+
+●trash.js
+
+●shared.js
+
+●router.js
+
+#### Instruções de acesso
+
+1.Abra um navegador de Internet e informe a seguinte URL:
+2.Realize seu login e terá acesso à página de lista de tarefas, Clique no botão + na parte inferior e será redirecionado.
+3.Ao clicar em editar perfil no canto superior esquerdo terá acesso a página de editar perfil.
