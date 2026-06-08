@@ -34,7 +34,7 @@ RF-001: O sistema deve permitir que o usuário possa cadastrar uma nova conta ou
 
 #### Instruções de acesso
 
-1.Abra um navegador de Internet e informe a seguinte URL: 
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/ 
 
 2. Clique no botão realize seu cadastro, abaixo do botão logar, e terá acesso a página de cadastro de usuário.
 
@@ -71,7 +71,7 @@ RF-001: O sistema deve permitir que o usuário possa cadastrar uma nova conta ou
 
 #### Instruções de acesso
 
-1.Abra um navegador de Internet e informe a seguinte URL: 
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/ 
 
 2. Terá acesso a página de login.
 
@@ -88,7 +88,7 @@ O acesso a tela de cadastro de tarefas poderá ser feito ao clicar no botão "No
 #### Exemplo da tela de cadastro de tarefas:
 
 
-<img width="2559" height="1313" alt="CADASTRO-DE-TAREFAS" src="https://github.com/user-attachments/assets/2879e4ba-da6f-4c6e-875a-0ee2dfd9b726" />
+<img width="2555" height="1312" alt="NOVA-TAREFA" src="https://github.com/user-attachments/assets/76e698fe-c6ab-4fcb-beb0-2f87ba4cd16b" />
 
 
 
@@ -112,9 +112,9 @@ RF-006: O sistema deve permitir que o usuário tenha a possibilidade de definir 
 
 #### Instruções de acesso
 
-1.Abra um navegador de Internet e informe a seguinte URL:
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/
 
-2.Realize seu login e terá acesso à página de lista de tarefas, Clique no botão + na parte inferior e será redirecionado.
+2.Realize seu login e terá acesso à página de lista de tarefas.
 
 3.Ao clicar em editar perfil no canto superior esquerdo terá acesso a página de editar perfil.
 
@@ -131,7 +131,7 @@ O acesso a tela de gerenciar tarefas poderá ser feito ao clicar no botão "Toda
 #### Exemplo da tela de gerenciar de tarefas:
 
 
-<img width="2560" height="1312" alt="TODAS-TAREFAS" src="https://github.com/user-attachments/assets/dcb9f15b-6f14-4829-8438-ef769276a651" />
+<img width="2553" height="1314" alt="TODAS-TAREFAS" src="https://github.com/user-attachments/assets/8ca71172-59d8-4d8a-a3af-711c1bd2d775" />
 
 
 
@@ -155,7 +155,7 @@ RF-003: O sistema deve permitir que o usuário gerencie suas tarefas
 
 1.Abra um navegador de Internet e informe a seguinte URL:
 
-2.Realize seu login e terá acesso à página de lista de tarefas, Clique no botão + na parte inferior e será redirecionado.
+2.Realize seu login e terá acesso à página de lista de tarefas.
 
 3.Ao clicar em todas as tarefas no canto superior esquerdo terá acesso a página de gerenciar tarefas.
 
@@ -167,10 +167,12 @@ RF-003: O sistema deve permitir que o usuário gerencie suas tarefas
 
 José Júlio de Paiva Neto
 
+O acesso a tela de lista de tarefas poderá ser feito ao clicar no botão "Inicio".
+
 #### Exemplo da tela de visualizar tarefas:
 
 
-<img width="739" height="1289" alt="LISTA-DE-TAREFAS" src="https://github.com/user-attachments/assets/02381c25-39a8-4973-922d-21fe77cf9778" />
+<img width="2555" height="1310" alt="TELA-DE-INICIO" src="https://github.com/user-attachments/assets/6029a6a9-8ed4-4625-9bd1-251240a7b1fb" />
 
 
 
@@ -202,7 +204,7 @@ RF-010: O sistema deve permitir que o usuário veja o intervalo de tempo para a 
 
 #### Instruções de acesso
 
-1.Abra um navegador de Internet e informe a seguinte URL:
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/
 
 2.Realize seu login e terá acesso à página de lista de tarefas.
 
@@ -219,7 +221,7 @@ O acesso a tela de lixeira poderá ser feito ao clicar no botão "Lixeira".
 #### Exemplo da tela de lixeira:
 
 
-<img width="2560" height="1312" alt="LIXEIRA" src="https://github.com/user-attachments/assets/d08c0c08-d59c-4e7b-bbae-c72825b420fd" />
+<img width="2545" height="1309" alt="LIXEIRA" src="https://github.com/user-attachments/assets/be84b52f-b843-486a-8db9-22a2041998bc" />
 
 
 
@@ -243,7 +245,7 @@ RF-011: O sistema deve enviar as tarefas excluídas para uma lixeira deixando a 
 
 1.Abra um navegador de Internet e informe a seguinte URL:
 
-2.Realize seu login e terá acesso à página de lista de tarefas, Clique no botão + na parte inferior e será redirecionado.
+2.Realize seu login e terá acesso à página de lista de tarefas.
 
 3.Ao clicar em lixeira no canto superior esquerdo terá acesso a página de lixeira.
 
@@ -260,7 +262,7 @@ O acesso a tela de editar perfil poderá ser feito ao clicar no botão "Editar P
 #### Exemplo da tela de lixeira:
 
 
-<img width="2560" height="1313" alt="EDITAR-PERFIL" src="https://github.com/user-attachments/assets/e7865980-82b1-4515-a3d2-c80773394932" />
+<img width="2549" height="1309" alt="EDITAR-PERFIL" src="https://github.com/user-attachments/assets/d65bbbbd-6ecb-4985-b903-60cc549afdc3" />
 
 
 
@@ -282,8 +284,8 @@ RF-012: O sistema deve permitir ao usuário visualizar seus dados cadastrais, as
 
 #### Instruções de acesso
 
-1.Abra um navegador de Internet e informe a seguinte URL:
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/
 
-2.Realize seu login e terá acesso à página de lista de tarefas, Clique no botão + na parte inferior e será redirecionado.
+2.Realize seu login e terá acesso à página de lista de tarefas.
 
 3.Ao clicar em editar perfil no canto superior esquerdo terá acesso a página de editar perfil.
