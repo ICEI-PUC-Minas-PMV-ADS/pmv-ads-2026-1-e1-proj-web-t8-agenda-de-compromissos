@@ -37,7 +37,7 @@ Este projeto propõe a criação de um site para o gerenciamento de compromissos
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/">aqui</a> para acessá-lo. 
 
 # Código-Fonte
 
