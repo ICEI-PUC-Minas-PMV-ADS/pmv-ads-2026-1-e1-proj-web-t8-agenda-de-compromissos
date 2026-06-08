@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <p style="font-size: 0.9rem; color: var(--text-muted); margin-top: 4px;">Onde: ${task.location || 'Não definido'}</p>
                 </div>
                 <div class="task-card-actions">
-                    <button class="restore-trigger-btn" data-id="${task.id}" style="background: var(--success-color); color: #000; padding: 8px 16px; border-radius: 8px; border: none; cursor: pointer; font-weight: bold;">Restaurar</button>
+                    <button class="restore-trigger-btn" data-id="${task.id}" style="background: var(--success-color); color: #fff; padding: 8px 16px; border-radius: 8px; border: none; cursor: pointer; font-weight: bold;">Restaurar</button>
                     <button class="hard-delete-trigger-btn" data-id="${task.id}" style="background: var(--danger-color); color: #fff; padding: 8px 16px; border-radius: 8px; border: none; cursor: pointer; font-weight: bold; margin-left: 10px;">Excluir</button>
                 </div>
             `;

@@ -1,60 +1,44 @@
 <<<<<<< HEAD
-message: Please cite this software using these metadata.
-title:
+cff-version: 1.2.0
+message: "Please cite this software if it was useful for your research or project."
+
+title: "ADC - Agenda de Compromissos"
+
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+  - family-names: "Miranda"
+    given-names: "Pablo"
+
+  - family-names: "Neto"
+    given-names: "José"
+
+  - family-names: "Lamarca"
+    given-names: "Lucas"
+
+  - family-names: "Coelho"
+    given-names: "Marco"
+
+  - family-names: "Santos"
+    given-names: "William"
+
+  - name-suffix: "Professor"
+    affiliation: "PUC Minas"
+    family-names: "Tavares"
+    given-names: "Clóvis"
+
 keywords:
-  - 
-  - 
-repository-code: 
-version: 1.0.0
-=======
-message: Please cite this software using these metadata.
-title:
-authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
-keywords:
-  - 
-  - 
-repository-code: 
-version: 1.0.0
+  - website
+  - ads
+  - html
+  - css
+  - javaScript
+  - JSON
+  - DOM
+  - localstorage
+  - github
+
+repository-code: "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos.git"
+
+version: "1.0.0"
+
 >>>>>>> d7f4f6021faf0298abafd657bc298aac3ecdf570
-date-released: 2023-10-31
+date-released: 21/06/2026

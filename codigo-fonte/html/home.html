@@ -3,72 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task Master - Lista de Tarefas</title>
+    <title>Início</title>
+    <link rel="icon" href="../img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../style/home.css">
+    <script src="../js/shared.js"></script>
+    <script src="../js/router.js"></script>
     <script src="../js/home.js" defer></script>
     <script src="../js/menu.js" defer></script>
-    <link rel="stylesheet" href="../style/menu.css">
+
+
+    <link rel="stylesheet" href="../style/profile.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="background-blobs">
-        <div class="blob color-1"></div>
-        <div class="blob color-2"></div>
+    <div class="background-glow"></div>
+    <div id="main-dashboard" class="screen conteiner">
+        <header>
+            <h1>📅 Minha Agenda</h1>
+            <div class="user-info">Olá, <span id="current-user-name"></span>! <button id="logout-btn">Sair</button></div>
+        </header>
+            <div class="dashboard-layout">
+            <aside class="sidebar">
+                <a href="home.html" class="nav-btn active">🏠 Início</a>
+                <a href="dashboard.html" class="nav-btn">🗓️ Calendários</a>
+                <a href="task.html" class="nav-btn">📋 Todas as Tarefas</a>
+                <a href="task-create.html" class="nav-btn">➕ Nova Tarefa</a>
+                <a href="profile.html" class="nav-btn">👤 Editar Perfil</a>
+                <a href="trash.html" class="nav-btn">🗑️ Lixeira (<span id="trash-count">0</span>)</a>
+            </aside>
+    <!-- BOTÃO PARA TROCAR ENTRE LISTA E RESUMO -->
+    <button class="switch-container-btn" id="switchContainerBtn">
+        Ver resumo
+    </button>
+    <!-- CONTAINER PRINCIPAL: LISTA POR PRIORIDADE -->
+    <div class="container task-container">
+        <p class="title">Lista de Tarefas</p>
+        <hr>
+
+            <div class="search-area">
+        <span class="search-icon">🔎</span>
+        <input 
+            type="text" 
+            id="searchTaskInput" 
+            placeholder="Pesquisar por título..."
+        >
     </div>
 
-    <main class="container-lista">
-        <header class="top-bar">
-           
-            <div class="main-title">HOME</div>
-            <a href="./manage_tasks.html" class="btn-add-new">+ Novo</a>
-        </header>
+    <div class="date-filter-area">
+        <label for="dateTaskInput">DATA</label>
+        <input 
+            type="date" 
+            id="dateTaskInput"
+        >
+    </div>
 
-        <section class="summary-section">
-            <div class="month-display">Abril</div>
-            <div class="schedule-summary">
-                <div class="summary-col">
-                    <h3>📅 Amanhã</h3>
-                    <div id="amanhaList" class="mini-list"></div>
-                </div>
-                <div class="summary-col">
-                    <h3>🗓️ Hoje</h3>
-                    <div id="hojeList" class="mini-list"></div>
-                </div>
-            </div>
-            <div class="mini-calendar">
+        <div class="tasks-scroll">
+            <section class="urgency-section">
+                <h2 class="h2 alta-title">🚨 Alta prioridade</h2>
+                <div class="task-list" id="altaUrge"></div>
+            </section>
 
-            </div>
+            <section class="urgency-section">
+                <h2 class="h2 media-title">🔔 Média prioridade</h2>
+                <div class="task-list" id="mediaUrge"></div>
+            </section>
+
+            <section class="urgency-section">
+                <h2 class="h2 baixa-title">✅ Baixa prioridade</h2>
+                <div class="task-list" id="baixaUrge"></div>
+            </section>
+          
+        </div>
+
+    </div>
+
+    <!-- CONTAINER SECUNDÁRIO: RESUMO -->
+    <div class="container info-container hidden">
+        <p class="title">Resumo</p>
+        <hr>
+
+        <section class="info-section">
+            <div id="monthDisplay"></div>
         </section>
 
-        <section class="kanban-board">
-            <div class="kanban-col">
-                <div class="badge red">🚨 Alta Urgência</div>
-                <div class="task-items" id="altaUrge"></div>
-            </div>
-            <div class="kanban-col">
-                <div class="badge yellow">🔔 Média Urgência</div>
-                <div class="task-items" id="mediaUrge"></div>
-            </div>
-            <div class="kanban-col">
-                <div class="badge green">✅ Baixa Urgência</div>
-                <div class="task-items" id="baixaUrge"></div>
-            </div>
-        </section>
-    </main>
-<button class="toggle-btn" id="toggleBtn">ABRIR MENU</button>
-    
-    <div class="menu-wrapper retracted" id="wrapper">
-        <div class="selector"></div>
-        <div class="wheel" id="wheel">
-            <div class="item" draggable="true"><a href="./home.html">🏠</a></div>
-            <div class="item" draggable="true">📆</div>
-            <div class="item" draggable="true"><a href="./manage_tasks.html">📋</a></div>
-            <div class="item" draggable="true">✏️</div>
-            <div class="item" draggable="true">🗑️</div>
-            <div class="item" draggable="true">⚙️</div>
-            <div class="item" draggable="true">👤</div>
-            <div class="item" draggable="true"><a href="../index.html">🔚</a></div>
+        <div class="info-content">
+            <section class="info-section">
+                <h2 class="h2 hoje-title">🗓️ Hoje</h2>
+                <div class="mini-list" id="hojeList"></div>
+            </section>
+
+            <section class="info-section">
+                <h2 class="h2 amanha-title">📅 Amanhã</h2>
+                <div class="mini-list" id="amanhaList"></div>
+            </section>
+
         </div>
     </div>
+
+
+</div>
+</div>
 </body>
 </html>

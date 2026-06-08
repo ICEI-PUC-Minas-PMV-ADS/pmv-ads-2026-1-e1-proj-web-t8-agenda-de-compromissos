@@ -35,7 +35,7 @@ function initLogout() {
     if (logoutBtn) {
         logoutBtn.addEventListener('click', () => {
             localStorage.removeItem('agenda_current_user');
-            window.location.href = '../index.html';
+            window.location.href = '../../index.html';
         });
     }
 }

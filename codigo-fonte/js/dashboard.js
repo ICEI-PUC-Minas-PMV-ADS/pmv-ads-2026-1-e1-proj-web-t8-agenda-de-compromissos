@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         viewButtons: document.querySelectorAll('.view-btn')
     };
 
-    // --- CONTROLO DE ALTERNÂNCIA DE ABAS EXCLUSIVAS ---
+        // --- CONTROLO DE ALTERNÂNCIA DE ABAS EXCLUSIVAS ---
     dom.viewButtons.forEach(btn => {
         btn.addEventListener('click', () => {
             // 1. Atualiza o estado dos botões de navegação superiores

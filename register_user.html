@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta</title>
+    <link rel="icon" href="./codigo-fonte/img/logo.png" type="image/x-icon">
+    <script src="./codigo-fonte/js/router.js"></script>
+    <script src="./codigo-fonte/js/shared.js"></script>
+    <script src="./codigo-fonte/js/auth.js"></script>
+    <link rel="stylesheet" href="./codigo-fonte/style/auth.css">
+
+</head>
+<body>
+    <div class="background-glow"></div>
+    <div id="auth-screen" class="screen container">
+        <div id="auth-form">
+            <h2>Criar Nova Conta</h2>
+            <p class="subtitle">Insira seus dados para criar um perfil</p>
+            <form id="register-form">
+                <div class="input-box">
+                    <label for="username">Usuário (Apelido):</label>
+                    <input type="text" id="username" required placeholder="Seu usuário...">
+                </div>
+                <div class="input-box">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" required placeholder="Sua senha...">
+                </div>
+                <div class="input-box">
+                    <label for="user-fullname">Nome Completo:</label>
+                    <input type="text" id="user-fullname" required placeholder="Nome completo...">
+                </div>
+                <div class="input-box">
+                    <label for="user-email">E-mail:</label>
+                    <input type="email" id="user-email" required placeholder="seuemail@provedor.com">
+                </div>
+                <div class="input-box">
+                    <label for="user-birthdate">Data de Nascimento:</label>
+                    <input type="date" id="user-birthdate">
+                </div>
+                <button type="submit" class="btn">Cadastrar</button>
+            </form>
+            <p style="color: #9aa4b2; margin-top: 20px; font-size: 12px;">
+                Já tem conta? <a href="./index.html" style="color: #00ffff; font-weight: bold; text-decoration: none;">Faça login</a>
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>

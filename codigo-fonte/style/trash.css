@@ -10,6 +10,7 @@
     --text-muted: #9aa4b2;
     --text-label: #c7d2fe;
     --danger-color: #ff0055;
+    --success-color: #0077ff;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Orbitron', sans-serif; }

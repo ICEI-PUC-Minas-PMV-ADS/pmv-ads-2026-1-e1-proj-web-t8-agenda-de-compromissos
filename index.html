@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="./codigo-fonte/img/logo.png" type="image/x-icon">
+    <script src="./codigo-fonte/js/shared.js" defer></script>
+    <script src="./codigo-fonte/js/auth.js" defer></script>
+    <link rel="stylesheet" href="./codigo-fonte/style/auth.css">
+</head>
+<body>
+    <div class="background-glow"></div>
+    <div class="container"> 
+        <form id="auth-form"> 
+            <h2>Realize seu Login</h2>
+            <p class="subtitle">Acesse Sua Agenda</p>
+
+            <!--Caixa de Texto Usuário-->
+            <div class="input-box">
+                <label for="username">Nome de Usuário</label>
+                <input type="text" name="username" id="username" placeholder="Digite seu Nome de Usuário...">
+            </div>
+
+
+            <!--Caixa de Texto Senha-->
+            <div class="input-box">
+                <label for="password">SENHA</label>
+                <input type="password" name="password" id="password" placeholder="Digite sua Senha...">
+            </div>
+
+            <!---Botão de Realizar Login-->
+            <input type="submit" value="LOGAR" class="btn">
+<br><br>
+<a href="./register_user.html">Realize Seu Cadastro</a>
+        </form>
+        <span id="mensagemLogin"></span>
+    </div>
+</body>
+</html>
