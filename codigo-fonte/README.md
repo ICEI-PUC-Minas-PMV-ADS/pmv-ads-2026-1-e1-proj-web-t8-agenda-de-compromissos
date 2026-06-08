@@ -12,7 +12,7 @@ Para otimizar o fluxo de trabalho com o Git e manter o repositório organizado, 
 
 ## Instalação do Site
 
-Como o site é um projeto estático baseado em HTML, CSS e JS, ele funciona perfeitamente tanto localmente nos navegadores quanto em ambientes de servidor. Clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/">aqui</a> para acessá-lo. 
+A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/">aqui</a> para acessá-lo. 
 
 ## Histórico de versões
 
