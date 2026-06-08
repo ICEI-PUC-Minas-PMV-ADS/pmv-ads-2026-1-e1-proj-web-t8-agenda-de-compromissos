@@ -153,7 +153,7 @@ RF-003: O sistema deve permitir que o usuário gerencie suas tarefas
 
 #### Instruções de acesso
 
-1.Abra um navegador de Internet e informe a seguinte URL:
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/
 
 2.Realize seu login e terá acesso à página de lista de tarefas.
 
@@ -243,7 +243,7 @@ RF-011: O sistema deve enviar as tarefas excluídas para uma lixeira deixando a 
 
 #### Instruções de acesso
 
-1.Abra um navegador de Internet e informe a seguinte URL:
+1.Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2026-1-e1-proj-web-t8-agenda-de-compromissos/
 
 2.Realize seu login e terá acesso à página de lista de tarefas.
 
