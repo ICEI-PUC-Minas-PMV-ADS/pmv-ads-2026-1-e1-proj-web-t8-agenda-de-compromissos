@@ -38,8 +38,7 @@ Para o acompanhamento das tarefas, a equipe utiliza o GitHub Projects, configura
 
 - Done: Tarefas concluídas e integradas à versão principal do sistema.
 
-<img width="886" height="802" alt="image" src="https://github.com/user-attachments/assets/8ba56a23-bacd-40eb-ac85-d9eeecae0f3a" />
-
+<img width="1918" height="576" alt="image" src="https://github.com/user-attachments/assets/95e2ca60-72c7-4a8c-9afe-1f73c5b2cc98" />
 
 ### Etiquetas
 <p>As tarefas relacionadas à agenda são categorizadas para facilitar a identificação visual no repositório:</p>
