@@ -8,7 +8,8 @@
 
 2. Vídeo de apresentação das funcionalidades
 
-https://user-images.githubusercontent.com/100447878/175574137-6a15dff8-275c-4715-b33a-cd947f5bc64e.mp4
+https://github.com/user-attachments/assets/f248df11-6bb0-4dcc-a1ba-c4e5680ec893
+
 
 <br>
 
